@@ -1,0 +1,145 @@
+.custom-navbar {
+    display: flex; 
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.034); 
+    background-color: #fafbff;
+    margin-top: 50px !important;
+    z-index: 1;
+  }
+
+.custom-navbar .navbar-logo1 {
+    height: 45px; 
+    width: 100%;
+    margin-left: 25px;
+  }
+  .custom-navbar .navbar-logo2 {
+    height: 60px; 
+    width: auto;
+    margin-left: 15px;
+  }
+  .custom-navbar .navbar-logo {
+    height: 60px; 
+    width: auto;
+    margin-left: 25px !important;
+  }
+
+  /* Admin Navbar */
+
+  .custom-navbar {
+    display: flex; 
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.034); 
+    background-color: #fafbff;
+    margin-top: 50px !important;
+    z-index: 1;
+  }
+
+.custom-admin-navbar .navbar-logo1 {
+    height: 45px; 
+    width: 100%;
+    margin-left: 25px;
+  }
+  .custom-admin-navbar .navbar-logo2 {
+    height: 60px; 
+    width: auto;
+    margin-left: 15px;
+  }
+  .custom-admin-navbar .navbar-logo {
+    height: 60px; 
+    width: auto;
+    margin-left: 25px !important;
+  }
+  
+  @media (max-width: 768px) {
+    .custom-navbar .navbar-logo { 
+      margin-left: 40px !important;
+  
+    }
+    .custom-navbar .navbar-logo1 {
+      height: 40px; 
+      
+      margin-left: 5px;
+    }
+    .custom-navbar .navbar-logo2 {
+      height: 50px; 
+     width: auto;
+      margin-left: 20px;
+    }
+
+    /* Admin Navbar */
+
+    .custom-admin-navbar .navbar-logo { 
+      margin-left: 40px !important;
+  
+    }
+    .custom-admin-navbar .navbar-logo1 {
+      height: 40px; 
+      
+      margin-left: 5px;
+    }
+    .custom-admin-navbar .navbar-logo2 {
+      height: 50px; 
+     width: auto;
+      margin-left: 20px;
+    }
+
+    .logo-container .navbar-logo + .navbar-logo {
+      margin-left: 20px !important;
+    }
+    .logo-text{
+      display: none;
+    }
+    body{
+      overflow-x: hidden;
+    }
+    .custom-navbar{
+        display: flex;
+    }
+    
+  }
+
+  @media (min-width: 375px) {
+    .custom-navbar .navbar-logo { 
+      margin-left: 10px !important;
+  
+    }
+    .custom-navbar .navbar-logo1 {
+      height: 30px; 
+      
+      margin-left: 0px;
+    }
+    .custom-navbar .navbar-logo2 {
+      height: 54px; 
+     width: auto;
+      margin-left: 10px;
+    }
+    .logo-container .navbar-logo + .navbar-logo {
+      margin-left: 20px !important;
+    }
+    
+    
+    .custom-navbar{
+        display: flex;
+        
+    }
+    
+    
+  }
+  
+  .logo-container .navbar-logo + .navbar-logo {
+    margin-left: 8px; 
+  }
+  
+  .logo-text{
+    font-size: 16px;
+    margin-left: 25px;
+  }
+  .login-btn{
+    transition: background-color 0.3s ease;
+    
+  }
+  .login-btn:hover{
+    background-color: white;
+    color: #26408B;
+    
+  }
+  
+  
