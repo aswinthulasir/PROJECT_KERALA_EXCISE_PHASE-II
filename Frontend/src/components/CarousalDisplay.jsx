@@ -14,14 +14,17 @@ function CarousalDisplay() {
     try {
       const response = await fetch('http://localhost:5000/carousel/images');
       const data = await response.json();
+      console.log(data);
       setImages(data);
     } catch (error) {
       console.error('Error fetching images:', error);
     }
   };
 
+  
+
   return (
-    <div className="carousel-container">
+    <div className="carousel-container" id='canvas'>
       {images.length > 0 ? (
         <Carousel>
           {images.map((image) => (

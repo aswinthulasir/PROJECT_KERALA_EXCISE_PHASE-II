@@ -108,10 +108,11 @@ function AdminCarousalAdd() {
           images.map((image) => (
             <div key={image.id} className="gallery-item">
               <img
-                src={`http://localhost:5000/uploads/${image.path}`}
-                alt={image.name}
-                className="gallery-item-image"
-              />
+  src={`http://localhost:5000/uploads/${image.path}`}
+  alt={image.name}
+  className="gallery-item-image"
+/>
+
               <div className="gallery-item-details">
                 <h3>{image.name}</h3>
                 <p>{image.description}</p>

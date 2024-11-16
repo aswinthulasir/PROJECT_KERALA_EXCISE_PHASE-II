@@ -1,6 +1,7 @@
 const { createImage, getImages, deleteImage } = require('../models/imageModel');
 const path = require('path');
 
+
 exports.uploadImage = async (req, res) => {
   const { name, description } = req.body;
   const file = req.file;
@@ -14,6 +15,8 @@ exports.uploadImage = async (req, res) => {
 
   res.status(201).json({ message: 'Image uploaded successfully', image });
 };
+
+
 
 exports.getAllImages = async (req, res) => {
   const images = await getImages();
