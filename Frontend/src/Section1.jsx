@@ -5,6 +5,9 @@ import CarouselDisplay from './components/CarousalDisplay'
 import Leaders from './pages/About'
 import ScrollingTextBar from './components/ScrollingTextBar'
 import NewsAndAnnouncements from './pages/NewsAndAnnouncements'
+import GovtInitiatives from './pages/ImpOnlineServices'
+import OnlineServices from './pages/E-services'
+import Footer from './components/Footer'
 
 
 
@@ -23,6 +26,10 @@ const Section1 = () => {
         <div className='News-Announce-sec'>
           <NewsAndAnnouncements />
         </div>
+        <GovtInitiatives />
+        <OnlineServices />
+        <Footer />
+        
         
     </>
   )

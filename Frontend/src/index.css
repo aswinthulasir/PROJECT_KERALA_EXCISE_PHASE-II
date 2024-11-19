@@ -95,3 +95,12 @@ button:focus-visible {
 .leader-sec{
   margin-top: -10%;
 }
+
+.Title-card-section h5{
+  color: #274c77;
+}
+.Title-card-section-b h2{
+  color: #05385a;
+  font-size: 26px;
+  font-weight: bold;
+}

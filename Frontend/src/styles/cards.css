@@ -1,0 +1,121 @@
+
+.Card-Group{
+    justify-content: space-around !important;
+    width: 87%;
+    height: auto;
+    margin-left: 6%;
+    
+    
+    
+}
+.Card-Title{
+    font-size: 14px !important;
+    color: #1C2B78;
+    
+}
+.Card-Designation{
+    font-size: 12px;
+    color: #008BF9;
+}
+.card-each{
+    margin: 3%;
+    border: none;
+    box-shadow: 0 6px 10px -4px rgba(0, 0, 0, 0.15);
+    
+}
+
+.card-each img{
+    border-radius: 5px;
+}
+
+
+
+
+/* Blue bg section */
+.govt-initiatives-section {
+    
+    padding: 40px 20px;
+    color: #fff;
+  }
+.gradient-background-b {
+  background-color: #374A67; /* Dark background color */
+  padding: 60px 0;
+}
+
+.govt-initiatives-section {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.section-header {
+  margin-bottom: 40px;
+}
+
+.section-header h6 {
+  color: #66c1e4;
+  margin-bottom: 5px;
+}
+
+.section-header h4 {
+  
+  font-size: 18px;
+}
+
+.cards-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.initiative-card {
+  background-color: #ffffff;
+  color: #333;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  
+}
+
+.initiative-card .card-header {
+  padding: 10px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+}
+
+.initiative-card .card-link {
+  color: #007bff;
+  text-decoration: none;
+  display: block;
+  margin: 10px 0;
+}
+
+.initiative-card .helpline {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.initiative-card .helpline span {
+  font-weight: bold;
+  color: #007bff;
+}
+
+.initiative-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: none;
+  border-radius: 8px;
+}
+
+.initiative-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+a{
+  text-decoration: none;
+}
