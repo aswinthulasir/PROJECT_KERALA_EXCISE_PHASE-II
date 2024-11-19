@@ -6,6 +6,8 @@ import Login from './pages/Login';
 import { Route } from 'react-router-dom';
 import { Routes } from 'react-router-dom';
 import Admin from './Admin';
+import Leaders from './pages/About';
+import Gallery from './pages/Gallery';
 
 function App() {
   
@@ -16,6 +18,8 @@ function App() {
      <Route path='/' element={<Section1 />} />
      <Route path='login' element={<Login />} />
      <Route path='/admin-dashboard' element={<Admin />} />
+     <Route path='/about' element={<Leaders />}></Route>
+     <Route path='/gallery' element={<Gallery />}></Route>
      
      
      
