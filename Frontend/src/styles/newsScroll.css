@@ -1,0 +1,36 @@
+.scrolling-box {
+    padding: 16px;
+    border-radius: 8px;
+    height: 200px;
+    overflow: hidden;
+    color: #fff;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.251);
+  }
+  
+  .scroll-container {
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .scrolling-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    animation: scroll-up 10s linear infinite;
+  }
+  
+  .scrolling-list li {
+    padding: 8px 0;
+  }
+  
+  @keyframes scroll-up {
+    0% {
+      transform: translateY(100%);
+    }
+    100% {
+      transform: translateY(-100%);
+    }
+  }
+  

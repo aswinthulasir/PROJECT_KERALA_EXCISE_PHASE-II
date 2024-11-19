@@ -16,6 +16,10 @@ function App() {
      <Route path='/' element={<Section1 />} />
      <Route path='login' element={<Login />} />
      <Route path='/admin-dashboard' element={<Admin />} />
+     
+     
+     
+     
     </Routes>
       
     </>

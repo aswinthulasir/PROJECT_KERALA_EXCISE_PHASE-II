@@ -66,16 +66,7 @@ const Login = () => {
     </div>
           </div>
           </div>
-          <div style={styles.checkboxContainer}>
-            <input
-              type="checkbox"
-              checked={rememberMe}
-              onChange={(e) => setRememberMe(e.target.checked)}
-              style={styles.checkbox}
-            />
-            <label style={styles.checkboxLabel}>Remember Me</label>
-          </div>
-
+          
           <button type="submit" style={styles.loginButton}>
             Login
           </button>

@@ -24,7 +24,7 @@ function CarousalDisplay() {
   
 
   return (
-    <div className="carousel-container" id='canvas'>
+    <div className="carousel-container" id='canvas' style={{marginTop:'5%', minWidth:'130%', marginLeft:'-15%', maxWidth:'100%'}}>
       {images.length > 0 ? (
         <Carousel>
           {images.map((image) => (

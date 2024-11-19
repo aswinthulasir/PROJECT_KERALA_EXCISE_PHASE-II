@@ -1,0 +1,30 @@
+.scrolling-container {
+    width: 100%;
+    background-color: #a3cef1;
+    padding: 10px 0;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  
+  .scrolling-text {
+    display: inline-block;
+    animation: scroll 15s linear infinite;
+    font-size: 18px;
+    color: #003366;
+  }
+  
+  .scrolling-item {
+    display: inline-block;
+    margin: 0 15px;
+  }
+  
+  .bullet {
+    color: #005ea6;
+    font-weight: bold;
+  }
+  
+  @keyframes scroll {
+    from { transform: translateX(100%); }
+    to { transform: translateX(-100%); }
+  }
+  

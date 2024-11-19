@@ -1,0 +1,106 @@
+/* Container styling */
+.leaders-container {
+  padding: 20px;
+  min-width: 1000px;
+  width: 150%;
+}
+
+/* Section title */
+.section-title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: #003366;
+}
+
+/* Cards section */
+.leader-card {
+  width: 100%;
+  max-width: 2400px; 
+  height: 100%;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: auto; /* Centering cards */
+}
+
+.leader-card:hover {
+  transform: translateY(-5px);
+}
+
+.card-image {
+  height: auto;
+  max-height: 120px;
+  object-fit: cover;
+ 
+}
+
+.card-body {
+  padding: 10%;
+  text-align: center;
+}
+
+.leader-name {
+  font-size: 16px;
+  font-weight: bold;
+  color: #003366;
+}
+
+.leader-title {
+  font-size: 12px;
+  color: #666;
+}
+
+/* About section styling */
+.about-department {
+  background-color: #f4f4f9;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 30px;
+}
+
+.about-department h2 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #0d47a1;
+}
+
+.department-description {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.read-more-link {
+  color: #1a73e8;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.read-more-link:hover {
+  text-decoration: underline;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .leader-card {
+    max-width: 100%;
+    width: auto;
+    margin-bottom: 20px;
+  }
+  .leaders-container{
+    min-width: auto;
+    margin-left: -20%;
+  }
+  .about-department{
+    min-width: 0px;
+    width: 80%;
+    margin-left: 40px;
+  }
+}
+

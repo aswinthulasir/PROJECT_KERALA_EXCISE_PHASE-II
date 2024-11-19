@@ -30,7 +30,7 @@ export default class AdminNav extends Component {
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="ms-auto custom-listbar">
                 <Nav.Link as={Link} to="/">Home</Nav.Link>
-                <Nav.Link as={Link} to="/about">About</Nav.Link>
+                <Nav.Link as={Link} to="/about-add">About</Nav.Link>
                 
                 <Nav.Link as={Link} to="/gallery" >Gallery</Nav.Link>
                 <NavDropdown title="Information" id="basic-nav-dropdown">
